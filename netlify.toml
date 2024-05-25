@@ -1,9 +1,5 @@
 [build]
-  publish = "build"
   command = "npm run build"
+  publish = "/opt/build/repo/build"
+  node_version = "18.20.3"
 
-[[plugins]]
-  package = "@netlify/plugin-node"
-
-  [plugins.inputs]
-    node_version = "18.20.3"
