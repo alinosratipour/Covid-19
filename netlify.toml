@@ -1,0 +1,7 @@
+[build]
+  publish = "build"
+  command = "npm run build"
+
+[[plugins]]
+  package = "@netlify/plugin-node"
+  config.node_version = "18.20.3"
