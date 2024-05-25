@@ -4,4 +4,6 @@
 
 [[plugins]]
   package = "@netlify/plugin-node"
-  config.node_version = "18.20.3"
+
+  [plugins.inputs]
+    node_version = "18.20.3"
